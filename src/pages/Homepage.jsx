@@ -4,7 +4,13 @@ export default function HomePage() {
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            Navbar
+            <img
+              src="./src/assets/img/logo_32x32.png"
+              alt="Logo"
+              width={30}
+              height={24}
+              className="d-inline-block align-text-top"
+            />
           </a>
           <button
             className="navbar-toggler"
@@ -26,17 +32,13 @@ export default function HomePage() {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  Features
+                  Sentieri
                 </a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Pricing
-                </a>
-              </li>
+
               <li className="nav-item">
                 <a className="nav-link disabled" aria-disabled="true">
-                  Disabled
+                  Chi siamo
                 </a>
               </li>
             </ul>
