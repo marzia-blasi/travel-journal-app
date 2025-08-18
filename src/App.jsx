@@ -1,5 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+// Layout - Header - Footer
+import DefaultLayout from "./layouts/DefaultLayout";
+
 // Pages
 
 import HomePage from "./pages/Homepage";
@@ -9,8 +12,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route>
-            layou di default
+          <Route element={<DefaultLayout />}>
             <Route>Pagina di 404</Route>
             <Route index element={<HomePage />} />
             <Route>paina dei luoghi</Route>

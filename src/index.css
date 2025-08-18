@@ -1,1 +1,37 @@
 @import "bootstrap";
+
+/*Color Palette*/
+
+:root {
+  /* CSS HEX */
+  --drab-dark-brown: #424025ff;
+  --drab-dark-brown-2: #5b4f34ff;
+  --coyote: #735e42ff;
+  --dark-moss-green: #375a12ff;
+  --avocado: #53802bff;
+  --pistachio: #83bc62ff;
+  --plum: #9d418aff;
+  --african-violet: #ba81b8ff;
+  --thistle: #d6c1e5ff;
+
+  /* CSS HSL */
+  --drab-dark-brown: hsla(56, 28%, 20%, 1);
+  --drab-dark-brown-2: hsla(42, 27%, 28%, 1);
+  --coyote: hsla(34, 27%, 35%, 1);
+  --dark-moss-green: hsla(89, 67%, 21%, 1);
+  --avocado: hsla(92, 50%, 34%, 1);
+  --pistachio: hsla(98, 40%, 56%, 1);
+  --plum: hsla(312, 41%, 44%, 1);
+  --african-violet: hsla(302, 29%, 62%, 1);
+  --thistle: hsla(275, 41%, 83%, 1);
+}
+
+/*Header - Navbar*/
+
+.navbar {
+  background-color: var(--avocado);
+
+  .nav-link {
+    color: var(--thistle);
+  }
+}
