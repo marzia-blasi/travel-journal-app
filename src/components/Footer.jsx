@@ -98,7 +98,7 @@ export default function Footer() {
                 </ul>
               </div>
               {/* Column */}
-              {/* Ripeti le altre colonne se servono */}
+
               <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
                 <h5 className="text-uppercase">Links</h5>
                 <ul className="list-unstyled mb-0">
@@ -178,7 +178,7 @@ export default function Footer() {
           </section>
           {/* Links */}
         </div>
-        {/* Container */}
+
         {/* Copyright */}
         <div className="text-center p-3 bg-body-tertiary">
           © 2025 Copyright:

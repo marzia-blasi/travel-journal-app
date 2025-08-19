@@ -1,5 +1,3 @@
-@import "bootstrap";
-
 /*Color Palette*/
 
 :root {
@@ -26,6 +24,18 @@
   --thistle: hsla(275, 41%, 83%, 1);
 }
 
+/*Elements */
+
+.btn-avocado {
+  background-color: var(--avocado);
+  color: var(--thistle);
+}
+
+.btn-avocado:hover {
+  background-color: var(--african-violet);
+  color: var(--drab-dark-brown);
+}
+
 /*Header - Navbar*/
 
 .navbar {
@@ -34,4 +44,11 @@
   .nav-link {
     color: var(--thistle);
   }
+}
+
+/*Jumbotron*/
+.jumbotron {
+  background-image: url(./assets/img/fiore_viola.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
