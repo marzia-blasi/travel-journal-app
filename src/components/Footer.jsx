@@ -1,5 +1,16 @@
 import { Link, NavLink } from "react-router-dom";
 
+//icons
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { library } from "@fortawesome/fontawesome-svg-core";
+
+/* import all the icons in Free Solid, Free Regular, and Brands styles */
+import { fas } from "@fortawesome/free-solid-svg-icons";
+import { far } from "@fortawesome/free-regular-svg-icons";
+import { fab } from "@fortawesome/free-brands-svg-icons";
+
+library.add(fas, far, fab);
+
 export default function Footer() {
   return (
     <>
@@ -16,25 +27,7 @@ export default function Footer() {
               href="#!"
               role="button"
             >
-              <i className="fab fa-facebook-f" />
-            </a>
-            {/* Twitter */}
-            <a
-              className="btn btn-primary rounded-circle m-1"
-              style={{ backgroundColor: "#55acee" }}
-              href="#!"
-              role="button"
-            >
-              <i className="fab fa-twitter" />
-            </a>
-            {/* Google */}
-            <a
-              className="btn btn-primary rounded-circle m-1"
-              style={{ backgroundColor: "#dd4b39" }}
-              href="#!"
-              role="button"
-            >
-              <i className="fab fa-google" />
+              <FontAwesomeIcon icon="fab fa-facebook-f" />
             </a>
             {/* Instagram */}
             <a
@@ -43,7 +36,7 @@ export default function Footer() {
               href="#!"
               role="button"
             >
-              <i className="fab fa-instagram" />
+              <FontAwesomeIcon icon="fab fa-instagram" />
             </a>
             {/* Linkedin */}
             <a
@@ -52,7 +45,7 @@ export default function Footer() {
               href="#!"
               role="button"
             >
-              <i className="fab fa-linkedin-in" />
+              <FontAwesomeIcon icon="fab fa-linkedin-in" />
             </a>
             {/* Github */}
             <a
@@ -61,7 +54,7 @@ export default function Footer() {
               href="#!"
               role="button"
             >
-              <i className="fab fa-github" />
+              <FontAwesomeIcon icon="fab fa-github" />
             </a>
           </section>
           {/* Social media */}
