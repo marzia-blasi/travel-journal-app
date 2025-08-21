@@ -6,6 +6,7 @@ import DefaultLayout from "./layouts/DefaultLayout";
 // Pages
 
 import HomePage from "./pages/Homepage";
+import SentieriPage from "./pages/SentieriPage";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
           <Route element={<DefaultLayout />}>
             <Route>Pagina di 404</Route>
             <Route index element={<HomePage />} />
-            <Route>paina dei luoghi</Route>
+            <Route path="/Sentieri" element={<SentieriPage />} />
             <Route>pagina del dettaglio</Route>
           </Route>
         </Routes>
