@@ -76,14 +76,14 @@ export default function Footer() {
                 <h5 className="text-uppercase">Links</h5>
                 <ul className="list-unstyled mb-0">
                   <li>
-                    <a href="#!" className="text-reset">
-                      Link 1
-                    </a>
+                    <NavLink href="#!" className="text-reset" to="/">
+                      Home
+                    </NavLink>
                   </li>
                   <li>
-                    <a href="#!" className="text-reset">
-                      Link 2
-                    </a>
+                    <NavLink href="#!" className="text-reset" to="/Sentieri">
+                      Sentieri
+                    </NavLink>
                   </li>
                   <li>
                     <a href="#!" className="text-reset">

@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import DefaultLayout from "./layouts/DefaultLayout";
 
 // Pages
-
+import NotFoundPage from "./pages/NotFoundPage";
 import HomePage from "./pages/Homepage";
 import SentieriPage from "./pages/SentieriPage";
 
@@ -14,7 +14,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route element={<DefaultLayout />}>
-            <Route>Pagina di 404</Route>
+            <Route path="*" element={<NotFoundPage />} />
             <Route index element={<HomePage />} />
             <Route path="/Sentieri" element={<SentieriPage />} />
             <Route>pagina del dettaglio</Route>
