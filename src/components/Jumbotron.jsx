@@ -1,3 +1,4 @@
+import { Link, NavLink } from "react-router-dom";
 export default function Jumbotron() {
   return (
     <>
@@ -9,12 +10,14 @@ export default function Jumbotron() {
             Più che una vacanza è stata una sfacchinata. Erano più di 10 anni
             che non facevo trekking nel bosco dal momento che a partire dagli
             anni 20 la vita mi ha regalato qualche problemuccio alla schiena, ma
-            il mio attuale compagno non l'aveva mai fatto così l'ho portato
+            il mio compagno non l'aveva mai fatto così l'ho portato
             all'avventura.
           </p>
-          <button className="btn btn-avocado btn-lg" type="button">
-            Vieni a sperderti
-          </button>
+          <Link to="/Sentieri">
+            <button className="btn btn-avocado btn-lg" type="button">
+              Vieni a sperderti
+            </button>
+          </Link>
         </div>
       </div>
       {/* end Jumbotron */}

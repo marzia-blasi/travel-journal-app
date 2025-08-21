@@ -24,7 +24,7 @@ export default function Footer() {
             <a
               className="btn btn-primary rounded-circle m-1"
               style={{ backgroundColor: "#3b5998" }}
-              href="#!"
+              href="https://www.facebook.com/marzia.blasi.1/"
               role="button"
             >
               <FontAwesomeIcon icon="fab fa-facebook-f" />
@@ -33,7 +33,7 @@ export default function Footer() {
             <a
               className="btn btn-primary rounded-circle m-1"
               style={{ backgroundColor: "#ac2bac" }}
-              href="#!"
+              href="https://www.instagram.com/zia___mar/"
               role="button"
             >
               <FontAwesomeIcon icon="fab fa-instagram" />
@@ -51,7 +51,7 @@ export default function Footer() {
             <a
               className="btn btn-primary rounded-circle m-1"
               style={{ backgroundColor: "#333333" }}
-              href="#!"
+              href="https://github.com/marzia-blasi"
               role="button"
             >
               <FontAwesomeIcon icon="fab fa-github" />
@@ -73,7 +73,7 @@ export default function Footer() {
             <div className="row">
               {/* Column */}
               <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-                <h5 className="text-uppercase">Links</h5>
+                <h5 className="text-uppercase">Ritorna a...</h5>
                 <ul className="list-unstyled mb-0">
                   <li>
                     <NavLink href="#!" className="text-reset" to="/">
