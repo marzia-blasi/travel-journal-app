@@ -24,6 +24,14 @@
   --thistle: hsla(275, 41%, 83%, 1);
 }
 
+/*Container */
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+  border: 1px solid red;
+}
+
 /*Elements */
 
 .btn-avocado {
@@ -53,10 +61,15 @@
   background-repeat: no-repeat;
 }
 
+/*Card */
 /*img Card top*/
 
 .card-img-top {
   height: 200px;
   object-fit: cover;
   object-position: center;
+}
+
+.card-body {
+  overflow: hidden;
 }
