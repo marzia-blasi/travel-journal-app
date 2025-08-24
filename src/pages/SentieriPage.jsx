@@ -19,14 +19,10 @@ export default function SentieriPage() {
       <section>
         <div className="container">
           <div className="row justify-content-start mt-5">
-            {posts?.map(({ id, title, text }) => (
-              <div className="col-auto mb-4" key={id}>
+            {posts?.map(({ id, title, text, img }) => (
+              <div className="col-6 col-md-4 col-lg-3  mb-4" key={id}>
                 <div className="card fixed-card">
-                  <img
-                    src={"https://picsum.photos/200"}
-                    className="card-img-top"
-                    alt={title}
-                  />
+                  <img src={`/${img}`} className="card-img-top" alt={title} />
                   <div className="card-body">
                     <Link to={`/Details/${id}`}>
                       <h5 className="card-title">{title}</h5>

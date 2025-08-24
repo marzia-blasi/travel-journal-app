@@ -52,3 +52,11 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+/*img Card top*/
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
